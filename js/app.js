@@ -16,7 +16,8 @@ var calculadora = {
     }
   },
   borrar: function(){
-    calculadora.numero1 = '0', calculadora.numero2 = '', calculadora.operacion = '', calculadora.resultado = '';
+    calculadora.numero1 = '0', calculadora.numero2 = '',
+    calculadora.operacion = '', calculadora.resultado = '',
     calculadora.estado = 0;
     calculadora.muestraValor({display:calculadora.numero1});
   },
